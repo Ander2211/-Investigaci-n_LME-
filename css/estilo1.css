@@ -1,0 +1,41 @@
+/*Lo ques es la fuente y la navbar se usara coneste formato*/
+*{
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*estilos de la navbar*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul .nav__enlace--activo{
+border-bottom: solid 1px #fff;
+font-weight: 700;
+
+}
+
+li:hover{
+    list-style:disc ;
+}
