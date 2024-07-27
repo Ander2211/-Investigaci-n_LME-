@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    
+    background: #f2f2f2;
+}
+
+
+
+header{
+    vertical-align: top;
+}
+
+
+
+/*estilos de la navbar*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul .nav__enlace--activo{
+border-bottom: solid 1px #fff;
+font-weight: 700;
+}
+
+li:hover{
+    list-style:disc ;
+}
+
+
+
+
+
+
+button {
+    padding: 0.3rem;
+    margin: 10px;
+    border: none;
+    background-color: rgb(116, 116, 255);
+    font-size: 18px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+
+}
+
+button:hover {
+    background-color: rgb(86, 86, 255);
+    transform: translateY(1px);
+}
+
+
+label {
+    font-size: 17px;
+}
+
+input {
+    height: 2rem;
+    border-color: rgba(0, 0, 0, 0.205);
+    border-radius: 7px;
+}
+
+.peso {
+    margin: 1rem;
+}
+
+.altura {
+    margin: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.181);
+    text-align: center;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    border-radius: 40px;
+    box-shadow: -12px -12px 28px #b5b5b583,
+        12px 12px 28px #ffffff;
+        margin: 7rem auto;
+}
+
+.title {
+    padding: 3rem 2rem;
+}
+
+.input {
+    display: grid;
+    justify-content: center;
+}
+
+
+.conteiner{
+    margin: 2rem 1em;
+    display: flex;
+}
+
+
+
+
+
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+
+}
+th {
+    background-color: #f2f2f2;
+}

@@ -1,4 +1,4 @@
-/*Lo ques es la fuente y la navbar se usara coneste formato*/
+/*Lo ques es la fuente y la navbar se usara con este formato*/
 *{
 padding: 0;
 margin: 0;
@@ -39,3 +39,6 @@ font-weight: 700;
 li:hover{
     list-style:disc ;
 }
+/*fin de los estilos de la navbar*/
+
+
