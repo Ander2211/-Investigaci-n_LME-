@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .centrada{
+            text-align: center;
+        
+        }
+        .izquierda{
+            text-align: left;
+        }
+        .derecha{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-title">JavaScript: características y beneficios</h1>
+    <p>En esta pagina se veran las diferentes variables y funciones de JavaScript css.</p>
+    <div class="derecha">
+        </div>
+    <style>
+        .flortar-izquierda {
+            float: left;
+                margin-right: 10px; 
+        }
+        .flortar-derecha {
+            float: right;
+                margin-right: 10px;
+        }
+    </style>
+    <img src="JavaScript un lenguaje de programación.webp" alt="JavaScript" class="flortar-izquierda"  width="300" height="200">
+    <script>
+        // Función para animar el título de la página
+        let titleText = "RA243103 ";
+        let index = 0;
+        
+        function animateTitle() {
+            document.title = titleText.substring(0, index);
+            index++;
+            if (index > titleText.length) {
+                index = 0;
+            }
+            setTimeout(animateTitle, 200);
+        }
+        
+        animateTitle();
+    </script>
+</body>
+</html>
