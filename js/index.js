@@ -16,7 +16,5 @@ function calculateBMI() {
 
     var resultText = '';
 
-    
-
     document.getElementById('result').innerText = `Tu IMC es ${bmi.toFixed(2)} `;
 }
