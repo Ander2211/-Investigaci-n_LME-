@@ -8,7 +8,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 /*estilos de la navbar*/
 nav {
-    background-color: #333;
+    background-color: #164863;
     color: #fff;
     padding: 1.8rem;
     display: flex;
@@ -33,28 +33,21 @@ a {
 
 .nav__enlace {
     padding: 0.5rem 1.5rem;
-    background-color: #757575;
+    background-color: #5dacd62c;
     margin: 0;
     text-align: center;
 }
 
 .nav__enlace:hover {
-    background-color: #575656;
+    background-color: #9bbec893;
 }
-
-
-
 
 .nav__enlace--activo {
     padding: 0.5rem 1.5rem;
     border-radius: 50px;
     border-radius: 50px;
-    background-color: #7100f1;
+    background-color: #427d9d;
 }
-
-
-
-
 /*fin de los estilos de la navbar*/
 
 
