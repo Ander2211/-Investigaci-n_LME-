@@ -3,52 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página</title>
+    <title>Javascript lenguaje de programación</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .centrada{
-            text-align: center;
-        
-        }
-        .izquierda{
-            text-align: left;
-        }
-        .derecha{
-            text-align: right;
-        }
-    </style>
 </head>
 <body>
-    <h1 id="main-title">JavaScript: características y beneficios</h1>
-    <p>En esta pagina se veran las diferentes variables y funciones de JavaScript css.</p>
-    <div class="derecha">
-        </div>
-    <style>
-        .flortar-izquierda {
-            float: left;
-                margin-right: 10px; 
-        }
-        .flortar-derecha {
-            float: right;
-                margin-right: 10px;
-        }
-    </style>
-    <img src="JavaScript un lenguaje de programación.webp" alt="JavaScript" class="flortar-izquierda"  width="300" height="200">
-    <script>
-        // Función para animar el título de la página
-        let titleText = "RA243103 ";
-        let index = 0;
+    <header>
+        <h1>Javascript lenguaje de programación</h1>
+        <nav>
+            <ul>
+                <li><a href="#javascript">Javascript</a></li>
+                <li><a href="#que-es">¿Qué es Javascript?</a></li>
+                <li><a href="#como-usar">¿Cómo utilizar Javascript en una página web?</a></li>
+                <li><a href="#manejo-variables">Manejo de variables en Javascript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <h2>Javascript</h2>
+        <input type="text" placeholder="Buscar">
+        <button>Buscar</button>
+    </aside>
+
+    <main>
+        <section id="javascript">
+            <h2>Javascript</h2>
+            <p>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.
+                 Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, 
+                 las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. 
+                 Como lenguaje de scripting del lado del servidor, se trata de una de las principales tecnologías de la World Wide Web. 
+                 Por ejemplo, al navegar por Internet, en cualquier momento en el que vea un carrusel de imágenes,
+                  un menú desplegable “click-to-show” (clic para mostrar), o cambien de manera dinámica los elementos de color en una página web,
+                   estará viendo los efectos de JavaScript.</p>
+        </section>
         
-        function animateTitle() {
-            document.title = titleText.substring(0, index);
-            index++;
-            if (index > titleText.length) {
-                index = 0;
-            }
-            setTimeout(animateTitle, 200);
-        }
+        <section id="que-es">
+            <h2>¿Qué es Javascript?</h2>
+            <p>¿Que es Javascript?¿JavaScript es un lenguaje de programacion y se puede ultizar en una pagina web?
+
+                Sí, JavaScript es un lenguaje de programación que se utiliza principalmente para crear interactividad en páginas web.
+                 Es uno de los lenguajes más importantes en el desarrollo web junto con HTML y CSS.
+
+                 Aqui hay algunas cosas que podremos hacer con JavaScript En una pagina web:
+
+                 1. interactividad: Añdir elementos interactivos como botones,
+                    formularios y menus que responden a las acciones del usuario
+
+                 2. Manipulacion del DOM: Cambiar el contenido, estructura y estilo de la pagina
+                    web en respuesta a eventos
+
+                 3. Validacion de formularios: Verificar que los datos introducidos por el usuario
+                    sean correctos antes de enviarlos al servidor
+
+                 4. Animaciones: Crear animaciones y efectos visuales en la pagina
+
+                 5. Comunicacion asincrona: Hacer peticiones al servidor sin recargar la pagina,
+                    utilizando tecnologías como AJAX o Fetch API.
+            </p>
+        </section>
         
-        animateTitle();
-    </script>
+        <section id="como-usar">
+            <h2>¿Para que se usa javascripten una pagina web? </h2>
+            <p>JavaScript se usa en una página web para añadir interactividad y dinamismo.
+                 Aquí hay algunas formas comunes en las que se utiliza:
+                
+                1. Manipulacion del DOM:
+
+                * Permitir modificiar la esctrucutra del HTML y el CSS en tiempo real,
+                    como añadir, eliminar o modificar elementos en la pagina.
+                
+                2. Validacion de formularios:
+
+                * Verificasr los datos introducidos por los usuarios antyes de enviarlos al 
+                    servidor, lo que mejora la experiencia del usuario y reduce la carga en el servidor
+
+                3. Creacion de efectos visuales y animaciones:
+
+                * Añade transiciones, animaciones, deslizamientos y otros efectos que hacen
+                    la experiencia del usuario mas atractiva.
+
+                4. Manejo de eventos:
+
+                * Responde a las acciones del usuarioi, como clics, desplazamineto, escritura en campos de texto,
+                    etc., permietiendo interacciones dinamicas sin recargar la pagina.
+                </p>
+        </section>
+    </main>
 </body>
 </html>
