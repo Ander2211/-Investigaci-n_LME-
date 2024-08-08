@@ -7,7 +7,7 @@
 
 body {
 
-    background: #f2f2f2;
+    background: #ddf2fd;
 }
 
 
@@ -116,9 +116,10 @@ input {
     -moz-border-radius: 11px;
     -ms-border-radius: 11px;
     -o-border-radius: 11px;
-    border-radius: 40px;
-    box-shadow: -12px -12px 28px #b5b5b583,
-        12px 12px 28px #ffffff;
+    border-radius: 26px;
+background: #ddf2fd;
+box-shadow:  25px 25px 40px #bacbd5,
+            -25px -25px 40px #ffffff;
     margin: 7rem auto;
 }
 
@@ -155,5 +156,5 @@ td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #ddf2fd;
 }
