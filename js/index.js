@@ -1,4 +1,4 @@
-function calculateBMI() {
+function calculaIMC() {
     var weight = document.getElementById('weight').value;
     var height = document.getElementById('height').value;
 
